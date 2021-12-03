@@ -11,6 +11,7 @@ class Kosar:
         """
         A kosár létrehozásakor beállítja az osztály attribútumait.
         """
+        self.termekek = termekek
         pass
 
     def osszeg_lekerdezese(self) -> int:
@@ -19,6 +20,7 @@ class Kosar:
 
         :return: A vásárlás összege Ft-ban.
         """
+        print(self.osszeg_lekerdezese)
         pass
 
     def termekek_lekerdezese(self) -> dict[str, int]:
@@ -27,6 +29,7 @@ class Kosar:
 
         :return: Az árucikkek nevei és mennyiségei.
         """
+        print(self.termekek_lekerdezese)
         pass
 
     def termekek_szamanak_lekerdezese(self) -> int:
@@ -35,6 +38,7 @@ class Kosar:
 
         :return: Hány darab termék van a kosárban.
         """
+        if
         pass
 
     def arucikk_mennyisegenek_lekerdezese(self, arucikk: str) -> int:

@@ -6,10 +6,11 @@ class Bolt:
     A vásárlásokat kezelő osztály. Az osztály egyetlen attribútuma a kosarak listája.
     """
 
-    def __init__(self):
+    def __init__(self, ):
         """
         A bolt létrehozásakor beállítja az osztály attribútumait.
         """
+
         pass
 
     def feladat_1(self, filepath: str) -> None:
