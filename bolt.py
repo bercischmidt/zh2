@@ -16,7 +16,8 @@ class Bolt:
         """
         Beolvassa a fájlból a kosarak tartalmát.
 
-        :param filepath: A kosarak tartalmát tartalmazó fájl elérési útvonala.
+        :param filepath: C:\Users\sbert\PycharmProjects\zh2\kosar.txt
+        A kosarak tartalmát tartalmazó fájl elérési útvonala.
         """
         pass
 
