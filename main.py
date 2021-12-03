@@ -1,4 +1,11 @@
-def arnovekedes(darab):
+import kosar
+import bolt
+lista = bolt.feladat_1("kosar.txt")
+print("1.Feladat a fájl beolvasása.")
+bolt.feladat_2(lista)
+print(bolt.feladat_3(lista))
+bolt.feladat_4(lista)
+"""def arnovekedes(darab):
     if darab == 0:
         return 0
     elif darab == 1:
@@ -36,3 +43,12 @@ for index, vasarlas2 in enumerate(vasarlas1):
     print(index + 1, ': ', sum(map(arnovekedes, vasarlas2.values())), sep='', file=infajl)
 infajl.close()
 print("5. feladat: A vásárlások összegének mentése az osszeg.txt fájlba.")
+
+import kosar
+import bolt
+lista = bolt.feladat_1("kosar.txt")
+print("1.Feladat a fájl beolvasása.")
+bolt.feladat_2(lista)
+print(bolt.feladat_3(lista))
+bolt.feladat_4(lista)"""
+
